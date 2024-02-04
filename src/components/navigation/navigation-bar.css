@@ -1,0 +1,15 @@
+.navbar-style{
+    background: linear-gradient(to right,  #550e4f, #632b5e, #6f4ea4);
+}
+
+.navbar-text-style{
+    color: white !important;
+}
+
+.navbar-logout{
+    justify-content: end;
+}
+
+.navLinks:hover {
+    background-color: #ae90de;
+}

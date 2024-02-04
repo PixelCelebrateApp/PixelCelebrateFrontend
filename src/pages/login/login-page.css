@@ -1,0 +1,8 @@
+.modal-width{
+    width: 60% !important;
+    left: 20%;
+}
+
+.modal{
+    background: linear-gradient(to bottom,  #550e4f, #632b5e, #6f4ea4);
+}
