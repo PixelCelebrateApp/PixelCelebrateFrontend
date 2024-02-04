@@ -10,7 +10,11 @@ function AdminPage() {
 
   useEffect(() => {
     let isLoggedIn = JSON.parse(localStorage.getItem("isLoggedIn"));
+    let isAdmin = JSON.parse(localStorage.getItem("isAdmin"));
     if (!isLoggedIn) {
+      navigate("/");
+    }
+    if (!isAdmin) {
       navigate("/");
     }
   }, []);
